@@ -59,7 +59,7 @@ const TemplateDetail = ({ params }) => {
     await api.deleteTemplate(template.id);
     router.push('/templates/index');
   };
-
+  // save template
   const handleSave = async () => {
     if (!editorInstance) return;
 

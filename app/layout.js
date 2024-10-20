@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
             <div className="flex items-center justify-between h-16">
               <div className="flex">
                 <Link href="/templates/index">
-                  <span className="flex-shrink-0 flex items-center">Document Templates</span>
+                  <span className="flex-shrink-0 flex items-center text-gray-900">Document Templates</span>
                 </Link>
                 <Link href="/templates/new">
                   <span className="ml-6 inline-flex items-center px-1 border-transparent text-sm font-medium text-gray-500 hover:text-indigo-700">
